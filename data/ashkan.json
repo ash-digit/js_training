@@ -1,0 +1,35 @@
+{
+  "name": "Ashkan Alikhanzadeh",
+  "age": 31,
+  "isEmployed": false,
+  "address": {
+    "street": "36 Brighton Grove",
+    "city": "Newcastle",
+    "postalCode": "NE4 5NS"
+  },
+  "phoneNumbers": [
+    {
+      "type": "mobile",
+      "number": "07788657419"
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "Node.js",
+    "Reac.js",
+    "PSQL",
+    "HTML",
+    "CSS",
+    "JEST",
+    "playwright",
+    "Firebase"
+  ],
+  "projects": [
+    {
+      "name": "Keyboard Worior",
+      "description": "A web application for touchtyping",
+      "completed": true,
+      "technologies": ["HTML", "CSS", "JavaScript","node.js","React.js"]
+    }
+  ]
+}

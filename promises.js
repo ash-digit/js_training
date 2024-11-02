@@ -1,4 +1,4 @@
-//this is just a simple example of Promise object
+//this is just a very simple example of Promise object
 //I call this block of code: part ONE and this is the begining of it
 
 function walkTheDog() {
