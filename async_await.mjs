@@ -4,4 +4,7 @@ async function f(){
     const parsedMovies = await movies.json()
 return parsedMovies
 }
-f().then(x => console.log(x))
+// f().then(x => console.log(x))
+const movies = await f();
+console.log(movies)
+console.log("hello")
