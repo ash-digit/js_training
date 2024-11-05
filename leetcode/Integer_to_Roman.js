@@ -84,8 +84,8 @@ const integerToRoman = function(num) {
     let roman = "";
     for (let [symbol, value] of romanNumerals) {
         while (num >= value) {
-            roman += symbol;
-            num -= value;
+            roman += symbol; // adding the symbol
+            num -= value; // subtracting from num by each value
         }
     }
 
