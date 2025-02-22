@@ -8,11 +8,10 @@ class ListNode {
 const node3 = new ListNode(3)
 const node2 = new ListNode(2, node3)
 const head1 = new ListNode(1,node2) // First heat
-console.log(JSON.stringify(head1), "<------head1")
+
 const node33 = new ListNode(4)
 const node22 = new ListNode(3, node33)
 const head2 = new ListNode(1,node22) // Second head
-console.log(JSON.stringify(head2), "<------head2")
 
 var mergeTwoLists = function(l1, l2){
     let curr = new ListNode()
